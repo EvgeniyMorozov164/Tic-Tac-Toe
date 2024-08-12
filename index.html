@@ -15,21 +15,22 @@
       <div class="form-container">
         <form action="" class="form">
           <fieldset class="fieldset">
-            <legend class="legend">Enter player names</legend>
+            <legend class="legend">Enter players names</legend>
             <ul class="inputs">
               <li class="input-item">
-                <label for="player1-name">Player1 name</label>
+                <label for="player1-name" class="label">Player 1 name:</label>
                 <br>
                 <input type="text" name="player1-name" id="player1-name" class="player-name">
               </li>
               <li class="input-item">
-                <label for="player2-name">Player2 name</label>
+                <label for="player2-name" class="label">Player 2 name:</label>
                 <br>
                 <input type="text" name="player2-name" id="player2-name" class="player-name">
               </li>
             </ul>
+            <button type="submit" class="button start">START</button>
           </fieldset>
-          <button type="submit" class="button">START</button>
+          
         </form>
       </div>
       <div class="game-stat">
@@ -69,7 +70,7 @@
       <p class="date">2024</p>
     </div>
   </footer>
-  <div class="game-over">
+  <div class="game-over hidden">
     <h2 class="heading2">Game over!</h2>
     <div class="result-container">
       <p class="result"></p>
