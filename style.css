@@ -193,3 +193,17 @@ body {
   border: var(--hover-border);
   cursor: pointer;
 }
+
+.footer {
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+
+.github-link {
+  text-decoration: none;
+  color: var(--main-color)
+}
+
+.github-link:hover {
+  color: var(--hover-color);
+}
